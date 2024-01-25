@@ -18,7 +18,8 @@ import { Button } from "@/components/ui/button"
 import { eventFormSchema } from '@/lib/validator'
 import { eventDefaultValues } from '@/constants'
 import Dropdown from './Dropdown'
-import FileUploader from './FileUploader'
+import { FileUploader } from './FileUploader'
+
 
 
 type EventFormProps = {
